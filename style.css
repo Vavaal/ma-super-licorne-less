@@ -1,0 +1,43 @@
+/* Déclaration */
+@color-title:#960CE8;
+@font-family-h1:"Bebas Neue";
+@font-family-p, @font-family-figcaption:"Montserrat";
+@text-align-center:center;
+@text-align-justify:justify;
+
+body, html{
+margin:0;
+padding:0;
+}
+
+#poeme{
+width:500px;
+margin:auto;
+text-align:@text-align-justify;
+}
+
+#poeme h1{
+text-align:@text-align;
+font-family:@font-family-h1;
+letter-spacing: 3px;
+color:@color-title;
+}
+
+#poeme p{
+font-family:@font-family-p;	
+}
+
+figure{
+text-align:@textalign;	
+}
+
+img{
+width:250px;
+height:250px;
+}
+
+figcaption{
+font-size:11px;
+font-style:italic; 
+font-family:@font-family-figcaption;	
+}
